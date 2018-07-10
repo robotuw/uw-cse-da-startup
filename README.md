@@ -4,15 +4,15 @@ Class is mostly Monday and Wednesday from 3:30-6:00 in CSE 002. Last two days ar
 
 ## Section 1: Circuit Playground
 
-[Targeted Learnings](arduino/pdfs/00_Learnings_Arduino.pdf)
+[Targeted Learnings](arduino/pdfs/00_Learnings_CP.pdf)
 
 ### Hardware/Software
-- [Arduino Hardware](http://a.co/gBGAyFX)
-- [Arduino Software](https://www.arduino.cc/en/Main/Software)
+- [Circuit Playground Hardware](https://learn.adafruit.com/introducing-circuit-playground/overview)
+- [Circuit Playground Library](https://caternuson.github.io/Adafruit_CircuitPlayground/)
 
 | Sec. 1   | Topics                                                      
 |--------- |-------------------------------------------------------------
-| Wed 7/18 | [Intro to Arduinos](arduino/pdfs/01_intro_to_arduino.pdf)   
+| Wed 7/18 | [Intro to Arduinos](arduino/pdfs/01_intro_to_cp.pdf)   
 |          | [Buttons](arduino/pdfs/02_input_output.pdf) 
 | Mon 7/23 | [Sounds](arduino/pdfs/02_input_output.pdf)        
 |          | [Traffic Light Lab](arduino/03_traffic_light.md)
