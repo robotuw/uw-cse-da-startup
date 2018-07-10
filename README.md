@@ -1,8 +1,8 @@
-# UW CSE Direct Admit Startup Course
-Startup course materials for UW CSE's Direct Admit students. <br />
-Class is 9-noon Monday-Thursday from Aug21-Sep14.
+# Math Academy 2018 CSE Section
+Course materials for students. <br />
+Class is mostly Monday and Wednesday from 3:30-6:00 in CSE 002. Last two days are in CSE 003.
 
-## Week 1: Arduinos
+## Section 1: Circuit Playground
 
 [Targeted Learnings](arduino/pdfs/00_Learnings_Arduino.pdf)
 
@@ -10,14 +10,14 @@ Class is 9-noon Monday-Thursday from Aug21-Sep14.
 - [Arduino Hardware](http://a.co/gBGAyFX)
 - [Arduino Software](https://www.arduino.cc/en/Main/Software)
 
-| Week 1   | Topics                                                      | Homework
-|--------- |-------------------------------------------------------------|--------------------
-| Mon 8/21 | [Intro to Arduinos](arduino/pdfs/01_intro_to_arduino.pdf)   |
-| Tue 8/22 | [Buttons, Potentiometers](arduino/pdfs/02_input_output.pdf) |
-| Wed 8/23 | [RGB LEDs, Sounds](arduino/pdfs/02_input_output.pdf)        |
-| Thu 8/24 | [Traffic Light Lab](arduino/03_traffic_light.md)      | [Learnings](arduino/pdfs/00_Learnings_Arduino.pdf)
+| Sec. 1   | Topics                                                      
+|--------- |-------------------------------------------------------------
+| Wed 7/18 | [Intro to Arduinos](arduino/pdfs/01_intro_to_arduino.pdf)   
+|          | [Buttons](arduino/pdfs/02_input_output.pdf) 
+| Mon 7/23 | [Sounds](arduino/pdfs/02_input_output.pdf)        
+|          | [Traffic Light Lab](arduino/03_traffic_light.md)
 
-## Week 2: Processing (p5.js)
+## Section 2: Web Programming and WebGL
 
 [Targeted Learnings](p5js/pdfs/00_Learnings_p5js.pdf)
 
@@ -25,7 +25,7 @@ Class is 9-noon Monday-Thursday from Aug21-Sep14.
 - [deprecated p5.js offline editor](https://github.com/processing/p5.js-editor/releases/tag/v0.6.2)
 - [alpha p5.js web editor](http://alpha.editor.p5js.org/)
 
-| Week 2   | Topics                                                                  | Homework
+| Sec. 2   | Topics                                                                  | Homework
 |--------- |-------------------------------------------------------------------------|--------------------
 | Mon 8/28 | [Intro to p5.js](p5js/pdfs/01_intro_to_p5js.pdf)                        | [Creature Lab](p5js/02_creature.md)
 | Tue 8/29 | [Functions and Interactivity](p5js/pdfs/03_functions_interactivity.pdf) | [Creature 2.0 Lab](p5js/04_creatureV2.md)
@@ -35,7 +35,7 @@ Class is 9-noon Monday-Thursday from Aug21-Sep14.
 ### Extra Fun Assignment
 - [Face Mask](p5js/mask.md)
 
-## Week 3: HTML/CSS
+## Section 3: Research Projects
 
 [Targeted Learnings](html/pdfs/00_Learnings_html.pdf)
 
@@ -54,7 +54,7 @@ Class is 9-noon Monday-Thursday from Aug21-Sep14.
 - [Dozing Bird](html/dozing_bird.md)
 - [Make it Rain](https://codepen.io/natacoops/post/make-it-rain-svg-animation-for-beginners)
 
-## Week 4: Edison Robots
+## Section 4: Assorted Topics (TBD)
 
 [Targeted Learnings](edison/pdfs/00_Learnings_edison.pdf)
 

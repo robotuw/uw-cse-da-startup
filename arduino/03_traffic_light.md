@@ -6,22 +6,7 @@ Adapted from: http://www.makeuseof.com/tag/arduino-traffic-light-controller/
 - Plan a new feature and then implement it
 - Troubleshoot your own code
 - **Finding Errors in a Tutorial!**
-    - WHAT?! There are a few minor errors in this tutorial. You will need to use your awesome brain to find and correct errors (both in code and in hardware setup).
-
-## You need
-- Arduino
-- A red, yellow and green LED.
-- A breadboard.
-- 3 x suitable resistors for the LEDs you have ( probably 220 Ohms is fine).
-- Connecting wires.
-- A pushbutton switch.
-- A high value resistor (10k).
-- Wiring
-
-## Schematic
-There are three LEDs wired with resistors to three separate input pins, and all connected to the ground.
-
-![Traffic Light Schematic](Arduino_Traffic_Light.png)
+    - WHAT?! There are a few minor errors in this tutorial. You will need to use your awesome brain to find and correct them.
 
 ## Programming
 We’ll start by defining variables so that we can address the lights by name rather than a number.
@@ -30,18 +15,22 @@ We’ll start by defining variables so that we can address the lights by name ra
 Start a new Arduino project, and begin with these lines:
 
 ```
-int red = 13;
-int yellow = 12;
-int green = 11;
+#include <Adafruit_CircuitPlayground.h>
+
+int redLight = 0;
+int yellowLight = 1;
+int greenLight = 2;
+long redColor = 0xFF0000;
+long yellowColor = 0x00FFFF;
+long greenColor = 0x00FF00;
+long off = 0x000000;
 ```
 
-Next, let’s add the setup function, where’ll we define the red, yellow and green LEDs to be output mode. Since we’ve created variables to represent the pin numbers, we can now refer to the pins by names instead.
+Next, let’s add the setup function, where all we need to do is setup the C.P. library.
 
 ```
 void setup() {
-  pinMode(red,OUTPUT);
-  pinMode(yellow,OUTPUT);
-  pinMode(green,OUTPUT);
+  CircuitPlayground.begin();
 }
 ```
 
@@ -54,24 +43,25 @@ void loop() {
 }
 
 void changeLights() {
-  // green off, yellow for 3 seconds
-  digitalWrite(green,HIGH);
-  digitalWrite(yellow,LOW);
+  //green off, yellow for 3 seconds
+  CircuitPlayground.setPixelColor(greenLight, off);
+  CircuitPlayground.setPixelColor(yellowLight, yellowColor);
   delay(3000);
-
-  // turn off yellow, then turn red on for 5 seconds
-  digitalWrite(yellow,LOW);
-  digitalWrite(red,HIGH);
+  
+  //turn off yellow, then turn on red for 5 seconds
+  CircuitPlayground.setPixelColor(yellowLight, off);
+  CircuitPlayground.setPixelColor(redLight, redColor);
   delay(5000);
-
-  // red and yellow on for 2 seconds (red is already on though)
-  digitalWrite(yellow,HIGH);
+  
+  //red and yellow on for 2 seconds (red is already on though)
+  CircuitPlayground.setPixelColor(yellowLight, yellowLight);
   delay(2000);
-
-  // turn off red and yellow, then turn on green
-  digitalWrite(yellow,LOW);
-  digitalWrite(red,LOW);
-  digitalWrite(green,HIGH);
+  
+  //turn off red and yellow, then turn on green
+  CircuitPlayground.setPixelColor(redLight, off);
+  CircuitPlayground.setPixelColor(yellowLight, off);
+  CircuitPlayground.setPixelColor(greenLight, greenColor);
+  
 }
 ```
 
@@ -80,38 +70,19 @@ Now, upload and run. You should have a working traffic light that changes every 
 ### Pedestrian Button
 Let’s add in a pushbutton for pedestrians to change the light whenever they like.
 
-Refer to the updated circuit diagram below:
-![Traffic Light Schematic with Button](Arduino_Traffic_Light_With_Button.png)
-
-You’ll notice that the switch has a high-impedance 10k resistor attached to it, and may be wondering why. This is called a pull down resistor. It’s a difficult concept to grasp at first, but bear with me.
-A switch either lets the current flow, or doesn’t. This seems simple enough, but in a logic circuit, the current should be always flowing in either a high or low state (remember – 1 or 0, high or low). You might assume that a pushbutton switch that isn’t actually being pushed would be defined as being in a low state, but in fact it’s said to be ‘floating’, because no current is being drawn at all.
-
-In this floating state, it’s possible that a false reading will occur as it fluctuates with electrical interference. In other words, a floating switch is giving neither a reliable high, nor low state reading. A pull down resistor keeps a small amount of current flowing when the switch is closed, thereby ensuring an accurate low state reading. In other logic circuits, you may find a pull-up resistor instead – this works on the same principle, but in reverse, making sure that particular logic gate defaults to high.
-
 Now, in the loop part of the code, instead of changing the lights every 15 seconds, we’re going to read the state of the pushbutton switch instead, and only change the lights when it’s activated.
 
-Start by adding some new variables to the start of the app:
+In the setup function, add a new line to start the traffic lights in the green stage. Without this initial setting, they would be turned off, until the first time a changeLights() was initiated using a function.
 
 ```
-int button = 2; // switch is on pin 2
-int buttonValue = 0; // switch defaults to 0 or LOW
-```
-
-Now, in the setup function, add a new line to declare the switch as an input. Also add a single line to start the traffic lights in the green stage. Without this initial setting, they would be turned off, until the first time a changeLights() was initiated using a function.
-
-```
-pinMode(switch,INPUT);
-digitalWrite(green,HIGH);
+CircuitPlayground.setPixelColor(greenLight, greenColor);
 ```
 
 Change the entire loop function to the following instead:
 
 ```
 void loop(){
-  // read the value of the switch
-  switchValue = digitalRead(button);
-  // if the switch is HIGH, ie. pushed down - change the lights!
-  if (buttonValue == HIGH){
+  if (CircuitPlayground.leftButton()){
     changeLights();
     delay(15000); // wait for 15 seconds
   }
