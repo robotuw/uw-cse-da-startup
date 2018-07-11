@@ -1,6 +1,6 @@
 # Math Academy 2018 CSE Section
 Course materials for students. <br />
-Class is mostly Monday and Wednesday from 3:30-6:00 in CSE 002. Last two days are in CSE 003.
+Class is mostly Monday and Wednesday from 3:30-6:00 in CSE 002. Last two days (August 6th and 8th) are in CSE 003.
 
 ## Section 1: Circuit Playground
 
@@ -22,15 +22,13 @@ Class is mostly Monday and Wednesday from 3:30-6:00 in CSE 002. Last two days ar
 [Targeted Learnings](p5js/pdfs/00_Learnings_p5js.pdf)
 
 ### Software
-- [deprecated p5.js offline editor](https://github.com/processing/p5.js-editor/releases/tag/v0.6.2)
-- [alpha p5.js web editor](http://alpha.editor.p5js.org/)
+- more here
 
-| Sec. 2   | Topics                                                                  | Homework
-|--------- |-------------------------------------------------------------------------|--------------------
-| Mon 8/28 | [Intro to p5.js](p5js/pdfs/01_intro_to_p5js.pdf)                        | [Creature Lab](p5js/02_creature.md)
-| Tue 8/29 | [Functions and Interactivity](p5js/pdfs/03_functions_interactivity.pdf) | [Creature 2.0 Lab](p5js/04_creatureV2.md)
-| Wed 8/30 | [Cookie Game](p5js/05_cookie_game.md)                                   |
-| Thu 9/01 | [Pong Lab](p5js/06_pong.md)                                       | [Learnings](p5js/pdfs/00_Learnings_p5js.pdf)
+| Sec. 2   | Topics                                                                  
+|--------- |-------------------------------------------------------------------------
+| Wed 7/25 | [Intro to HTML and JS](/)                        
+|          | [Intro to 3D Graphics](/) 
+| Mon 7/30 | [More with Graphics](/)                                   
 
 ### Extra Fun Assignment
 - [Face Mask](p5js/mask.md)
@@ -43,28 +41,27 @@ Class is mostly Monday and Wednesday from 3:30-6:00 in CSE 002. Last two days ar
 - [Github](https://github.com)
 - [CodePen](https://codepen.io)
 
-| Week 3   | Topics                                                      | Homework
-|--------- |-------------------------------------------------------------|--------------------
-| Mon 9/04 | **NO CLASS - Labor Day**                                    |
-| Tue 9/05 | [Using Github](html/01_github.md), [Intro to HTML](html/pdfs/02_intro_to_html.pdf)             | [HTML/CSS Tutorials](html/03_tutorials.md)
-| Wed 9/06 | [CSS](html/pdfs/04_css.pdf)                                 | [HTML/CSS Tutorials](html/03_tutorials.md)
-| Thu 9/07 | [YouTube Portal Lab](html/05_youtube.md)              | [ Learnings](html/pdfs/00_Learnings_html.pdf)
-
-### Extra Fun Assignment
-- [Dozing Bird](html/dozing_bird.md)
-- [Make it Rain](https://codepen.io/natacoops/post/make-it-rain-svg-animation-for-beginners)
+| Sec. 3   | Topics                                                      
+|--------- |-------------------------------------------------------------
+| Tue 7/31 | TBD                                                           
+| Wed 8/1  | TBD
+| Thu 8/2  | TBD
+| Fri 8/3  | TBD
 
 ## Section 4: Assorted Topics (TBD)
 
-[Targeted Learnings](edison/pdfs/00_Learnings_edison.pdf)
+### Possible Topics
+- Cryptology
+- Robotics
+- Artificial Intelligence/Machine Learning
+- Algorithms and Complexity
+- Computation Linguistics
+- Functional Programming
+- Computer Architecture
+- Unix and Bash Scripting
+- <your suggestion here!>
 
-### Hardware/Software
-- [Edison Robot](https://www.meetedison.com)
-- [EdPy Editor](https://www.edpyapp.com)
-
-| Week 4   | Topics                                                      | Homework
-|--------- |-------------------------------------------------------------|--------------------
-| Mon 9/11 | [Meet Edison](edison/pdfs/01_meet_edison.pdf), [Autonomous Driving](edison/pdfs/04_autonomous_driving.pdf)                           | [Edison Talent Show](edison/pdfs/02_edison_talent_show.pdf)
-| Tue 9/12 | [Edison Talent Show](edison/02_edison_talent_show.md)        | Group planning and research division for [A Game of Sardines](edison/03_sardines.md)
-| Wed 9/13 | [A Game of Sardines](edison/03_sardines.md)        | Training for [Obstacle Course](edison/05_obstacle_course.md), [Learnings](edison/pdfs/00_Learnings_edison.pdf)
-| Thu 9/14 | [Obstacle Course](edison/05_obstacle_course.md), Debrief about CS |
+| Sec. 4   | Topics                                                      
+|--------- |-------------------------------------------------------------
+| Mon 8/6  | TBD 
+| Wed 8/8  | TBD
