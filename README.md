@@ -22,16 +22,15 @@ Class is mostly Monday and Wednesday from 3:30-6:00 in CSE 002. Last two days (A
 <!--[Targeted Learnings](p5js/pdfs/00_Learnings_p5js.pdf)-->
 
 ### Software
-- TBD, we're either doing 2D or 3D
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [JS](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [Three.js](https://threejs.org/)
 
 | Sec. 2   | Topics                                                                  
 |--------- |-------------------------------------------------------------------------
-| Wed 7/25 | [Intro to HTML and JS](/)                        
-|          | [Intro to Graphics](/) 
-| Mon 7/30 | [More with Graphics](/)                                   
-
-<!--### Extra Fun Assignment
-- [Face Mask](p5js/mask.md)-->
+| Wed 7/25 | [Intro to HTML](/web/pdfs/01_intro_to_html)                        
+|          | [Intro to 3D Graphics with three.js](/web/pdfs/02_intro_to_threejs) 
+| Mon 7/30 | [More with Graphics](/web/pdfs/02_intro_to_threejs)                                   
 
 ## Section 3: Research Projects
 
@@ -45,6 +44,7 @@ Class is mostly Monday and Wednesday from 3:30-6:00 in CSE 002. Last two days (A
 ## Section 4: Assorted Topics (TBD)
 
 ### Possible Topics
+- Learn about and participate in Rob's research
 - Cryptology
 - Robotics
 - Artificial Intelligence
