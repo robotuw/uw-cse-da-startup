@@ -19,7 +19,7 @@ Class is mostly Monday and Wednesday from 3:30-6:00 in CSE 002. Last two days (A
 
 ## Section 2: Web Programming and Graphics
 
-<!--[Targeted Learnings](p5js/pdfs/00_Learnings_p5js.pdf)-->
+[Targeted Learnings](web/pdfs/00_Learnings_web.pdf)
 
 ### Software
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
