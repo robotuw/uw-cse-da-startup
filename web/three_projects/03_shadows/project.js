@@ -46,27 +46,36 @@ window.onload = function() {
 	
 	// Have the point light create shadows (why don't we do this for the ambient light?)
 	pointLight.castShadow = true;
-	pointLight.shadow.mapSize.width = 1024;
+	pointLight.shadow.mapSize.width = 1024; //size effects quality of shadow, must be a power of 2
 	pointLight.shadow.mapSize.height = 1024;
+	
+	// Add a visual indication of the light's "camera" that figues out the shadow
+	//var shadowCameraHelper = new THREE.CameraHelper(pointLight.shadow.camera);
+	//scene.add(shadowCameraHelper);
 	
 	// Add the point light to the scene
 	scene.add(pointLight);
 
-	// Create a black shadow material
-	var shadowMaterial = new THREE.ShadowMaterial({color: 0x000000});
-	
-	//Make the shadow somewhat opaque so it's not completely black
-	shadowMaterial.opacity = 0.5;
-	
+	// Create a plane for the sphere to cast a shadow
+	var planeMaterial = new THREE.MeshStandardMaterial({
+		color: 0x999999,
+		flatShading: true,
+		metalness: 0.0,
+		roughness: 0.6
+	});
+	var planeGeometry = new THREE.BoxGeometry(70, 0.1, 70);
 	// Create the mesh that the sphere will cast the shadow onto (it's a large, flat plane the sphere sits on)
-	var groundMesh = new THREE.Mesh(
-		new THREE.BoxGeometry(100, 0.1, 100),
-		shadowMaterial
+	var planeMesh = new THREE.Mesh(
+		planeGeometry,
+		planeMaterial
 	);
-	groundMesh.receiveShadow = true;
+	// Don't make the plane cast a shadow
+	planeMesh.castShadow = false;
+	// Make it able to receive shadows though
+	planeMesh.receiveShadow = true;
 	
-	// Add the shadow plane to the scene
-	scene.add(groundMesh);
+	// Add the plane to the scene
+	scene.add(planeMesh);
 
 	// A mesh is created from geometry and material, then added to the scene
 	// The mesh in this case is an octahedron (sphere approximation) 
@@ -79,12 +88,12 @@ window.onload = function() {
 	});
 	var shapeOne = new THREE.Mesh(geometry, material);
 	shapeOne.position.y += 10;
-	shapeOne.rotateZ(Math.PI/3);
 	// Make the sphere cast a shadow
 	shapeOne.castShadow = true;
-	shapeOne.receiveShadow = true;
+	// Don't make it able to receive shadows though
+	shapeOne.receiveShadow = false;
 	scene.add(shapeOne);
-
+	
 	// Call the renderer to update the scene after our changes
 	renderer.render(scene,camera);
 

@@ -33,6 +33,13 @@ window.onload = function() {
 	);
 	scene.add( box );
 
+	// Create the directional axes in the scene to help learn them
+	// x axis is red
+	// y axis is green
+	// z axis is blue
+	//var axesHelper = new THREE.AxesHelper( 2 );
+	//scene.add( axesHelper );
+
 	// Add the box to the renderer (so it's actually visible)
 	renderer.render(scene,camera);
 	
