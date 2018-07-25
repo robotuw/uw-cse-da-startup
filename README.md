@@ -28,9 +28,9 @@ Class is mostly Monday and Wednesday from 3:30-6:00 in CSE 002. Last two days (A
 
 | Sec. 2   | Topics                                                                  
 |--------- |-------------------------------------------------------------------------
-| Wed 7/25 | [Intro to HTML](/web/pdfs/01_intro_to_html)                        
-|          | [Intro to 3D Graphics with three.js](/web/pdfs/02_intro_to_threejs) 
-| Mon 7/30 | [More with Graphics](/web/pdfs/02_intro_to_threejs)                                   
+| Wed 7/25 | [Intro to HTML](/web/pdfs/01_intro_to_html.pdf)                        
+|          | [Intro to 3D Graphics with three.js](/web/pdfs/02_intro_to_threejs.pdf) 
+| Mon 7/30 | [More with Graphics](/web/pdfs/02_intro_to_threejs.pdf)                                   
 
 ## Section 3: Research Projects
 
