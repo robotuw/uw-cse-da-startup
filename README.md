@@ -29,14 +29,13 @@ Class is mostly Monday and Wednesday from 3:30-6:00 in CSE 002. Last two days (A
 | Sec. 2   | Topics                                                                  
 |--------- |-------------------------------------------------------------------------
 | Wed 7/25 | [Intro to HTML](/web/pdfs/01_intro_to_html.pdf)                        
-|          | [Intro to 3D Graphics with three.js](/web/pdfs/02_intro_to_threejs.pdf) 
-| Mon 7/30 | [More with Graphics](/web/pdfs/02_intro_to_threejs.pdf)                                   
+|          | [Intro to 3D Graphics with three.js](/web/pdfs/02_intro_to_threejs.pdf)                                 
 
 ## Section 3: Research Projects
 
 | Sec. 3   | Topics                                                      
 |--------- |-------------------------------------------------------------
-| Tue 7/31 | Intro to HCI, design theory, and planning                                                          
+| Tue 7/31 | [Intro to HCI, design theory, and planning](/projects/hci.pdf)                                                         
 | Wed 8/1  | Implementation and testing
 | Thu 8/2  | More testing, iteration
 | Fri 8/3  | Analysis, conclusions, prep for final presentation
@@ -55,10 +54,13 @@ Class is mostly Monday and Wednesday from 3:30-6:00 in CSE 002. Last two days (A
 - Computer Architecture
 - Unix and Bash Scripting
 - Makerspace (eg. laser cutter, 3D printing, milling machines (decide on this one ASAP so I can try to arrange it))
+- Databases
 - <your suggestion here!>
 
 | Sec. 4   | Topics                                                      
 |--------- |-------------------------------------------------------------
-| Fri 8/3  | (this session may or may not be happening) TBD
+| Mon 7/30 | [Cryptography](/talks/crypto.pdf)
+|		   | [Unix](/talks/unix.pdf)
+| Fri 8/3  | TBD
 | Mon 8/6  | TBD 
 | Wed 8/8  | TBD
