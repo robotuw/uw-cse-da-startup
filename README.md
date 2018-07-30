@@ -44,7 +44,7 @@ Class is mostly Monday and Wednesday from 3:30-6:00 in CSE 002. Last two days (A
 
 ### Possible Topics
 - Learn about and participate in Rob's research
-- Cryptology
+- ~~Cryptology~~
 - Robotics
 - Artificial Intelligence
 - Machine Learning
@@ -52,7 +52,7 @@ Class is mostly Monday and Wednesday from 3:30-6:00 in CSE 002. Last two days (A
 - Computational Linguistics
 - Functional Programming
 - Computer Architecture
-- Unix and Bash Scripting
+- ~~Unix and Bash Scripting~~
 - Makerspace (eg. laser cutter, 3D printing, milling machines (decide on this one ASAP so I can try to arrange it))
 - Databases
 - <your suggestion here!>
