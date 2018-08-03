@@ -61,6 +61,7 @@ Class is mostly Monday and Wednesday from 3:30-6:00 in CSE 002. Last two days (A
 |--------- |-------------------------------------------------------------
 | Mon 7/30 | [Cryptography](/talks/crypto.pdf)
 |		   | [Unix](/talks/unix.pdf)
-| Fri 8/3  | TBD
-| Mon 8/6  | TBD 
-| Wed 8/8  | TBD
+| Fri 8/3  | [Machine Learning](/talks/ml.pdf)
+| Mon 8/6  | Databases
+| Wed 8/8  | Makerspace Tour
+|		   | Computational Linguistics
