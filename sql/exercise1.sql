@@ -172,3 +172,9 @@ INSERT INTO Teaches
 
 
 -- Query 14: Which instructors started on or after January 1, 20 years ago?
+
+/*BONUS:
+	Now that you know the basics of SQL, you can understand the popular hack that is
+	sql injection. It basically involves highjacking the programmer's SQL query and
+	running your own query instead. Example: https://tech.io/playgrounds/154/sql-injection-demo/sql-injection
+*/
