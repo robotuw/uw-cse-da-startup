@@ -1,4 +1,4 @@
-/* How to start: open a terminal, then type the command:
+/* How to start: open a command line terminal in Windows, then type the command:
   		sqlite3 database
    where "database" is the name of the database file you want to use.
 WARNING: If you don't specify a database file, sqlite3 won't complain, but your data will be lost!

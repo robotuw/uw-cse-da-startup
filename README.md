@@ -47,14 +47,14 @@ Class is mostly Monday and Wednesday from 3:30-6:00 in CSE 002. Last two days (A
 - ~~Cryptology~~
 - Robotics
 - Artificial Intelligence
-- Machine Learning
+- ~~Machine Learning~~
 - Algorithms and Complexity
-- Computational Linguistics
+- ~~Computational Linguistics~~
 - Functional Programming
 - Computer Architecture
 - ~~Unix and Bash Scripting~~
-- Makerspace (eg. laser cutter, 3D printing, milling machines (decide on this one ASAP so I can try to arrange it))
-- Databases
+- Makerspace Tour
+- ~~Databases~~
 - <your suggestion here!>
 
 | Sec. 4   | Topics                                                      
@@ -62,6 +62,5 @@ Class is mostly Monday and Wednesday from 3:30-6:00 in CSE 002. Last two days (A
 | Mon 7/30 | [Cryptography](/talks/crypto.pdf)
 |		   | [Unix](/talks/unix.pdf)
 | Fri 8/3  | [Machine Learning](/talks/ml.pdf)
-| Mon 8/6  | Databases
-| Wed 8/8  | Makerspace Tour
-|		   | Computational Linguistics
+| Mon 8/6  | Databases, [Computational Linguistics](/talks/comp_ling.pdf)
+| Wed 8/8  | Makerspace Tour (meet at the building at 3:30, Fluke Hall)
