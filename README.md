@@ -46,14 +46,14 @@ Class is mostly Monday and Wednesday from 3:30-6:00 in CSE 002. Last two days (A
 - Learn about and participate in Rob's research
 - ~~Cryptology~~
 - Robotics
-- Artificial Intelligence
+- ~Artificial Intelligence~
 - ~~Machine Learning~~
 - Algorithms and Complexity
 - ~~Computational Linguistics~~
 - Functional Programming
 - Computer Architecture
 - ~~Unix and Bash Scripting~~
-- Makerspace Tour
+- ~Makerspace Tour~
 - ~~Databases~~
 - <your suggestion here!>
 
@@ -64,3 +64,4 @@ Class is mostly Monday and Wednesday from 3:30-6:00 in CSE 002. Last two days (A
 | Fri 8/3  | [Machine Learning](/talks/ml.pdf)
 | Mon 8/6  | Databases, [Computational Linguistics](/talks/comp_ling.pdf)
 | Wed 8/8  | Makerspace Tour (meet at the building at 3:30, Fluke Hall)
+|          | [Artificial Intelligence](/talks/ai.pdf)
